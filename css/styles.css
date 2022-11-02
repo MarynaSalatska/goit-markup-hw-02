@@ -20,7 +20,7 @@ ul {
   list-style: none;
 }
 
-button {
+.button {
   background-color: var(--accent-color);
   border: none;
   font-family: inherit;
@@ -29,8 +29,8 @@ button {
   line-height: 1.62;
 }
 
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
   background-color: var(--decoration-text-color);
   color: var(--decoration-button-color);
   cursor: pointer;
