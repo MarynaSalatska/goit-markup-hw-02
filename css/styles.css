@@ -48,6 +48,10 @@ ul {
 .link:focus {
   color: var(--decoration-text-color);
 }
+
+.link.current:active {
+  color: var(--decoration-text-color);
+}
 /* main page */
 .studio {
   color: #000000;
