@@ -1,9 +1,9 @@
 :root {
---primary-body-color:#FFFFFF;
---primary-text-color:#212121;
---secondary-text-color:#757575;
---decoration-text-color: #2196F3;
---accent-color: #F5F4FA;
+  --primary-body-color: #ffffff;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --decoration-text-color: #2196f3;
+  --accent-color: #f5f4fa;
 }
 
 body {
@@ -21,23 +21,23 @@ ul {
 }
 
 button {
-  background-color:var(--accent-color);
+  background-color: var(--accent-color);
   border: none;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height:1.62;
+  line-height: 1.62;
 }
 
 button:hover,
 button:focus {
   background-color: var(--decoration-text-color);
-  color: var(--decoration-button-color) ;
+  color: var(--decoration-button-color);
   cursor: pointer;
 }
 
 .link {
-  color: var(--primary-text-color) ;
+  color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
   font-family: inherit;
@@ -49,17 +49,17 @@ button:focus {
   color: var(--decoration-text-color);
 }
 /* main page */
-.studio{
-  color:#000000;
-  font-family: 'Raleway',sans-serif;
+.studio {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height:1.19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 .web {
-  font-family: 'Raleway',sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -67,34 +67,33 @@ button:focus {
   color: var(--decoration-text-color);
 }
 .solution {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
-.solution-title{
+.solution-title {
   font-family: inherit;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--primary-body-color)
+  color: var(--primary-body-color);
 }
 
-.solution-button{
+.solution-button {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  background: #2196F3;
+  background: #2196f3;
   color: var(--primary-body-color);
 }
 .solution-button:hover,
 .solution-button:focus {
-  background-color: #188CE8;
-  font-weight:inherit;
-  color:var(--primary-body-color);
+  background-color: #188ce8;
+  font-weight: inherit;
+  color: var(--primary-body-color);
   cursor: pointer;
 }
-
 
 .list-title {
   text-transform: uppercase;
@@ -105,23 +104,22 @@ button:focus {
 }
 .list-text {
   line-height: 1.71;
-  color:var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
-.section-title{
+.section-title {
   font-size: 36px;
   line-height: 1.16;
-  
 }
 
-.image-title{
+.image-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   color: inherit;
   letter-spacing: inherit;
 }
-.image-text{
+.image-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -129,7 +127,7 @@ button:focus {
 }
 
 .footer {
-  background: #2F303A;
+  background: #2f303a;
 }
 .footer-link {
   font-weight: 400;
@@ -137,7 +135,7 @@ button:focus {
   font-family: inherit;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
-  letter-spacing:inherit;
+  letter-spacing: inherit;
 }
 
 .footer-address {
@@ -145,18 +143,18 @@ button:focus {
   font-style: normal;
   font-weight: 400;
   line-height: 1.71;
-  color:var(--primary-body-color);
+  color: var(--primary-body-color);
 }
 /* portfolio */
 
-.works-title{
+.works-title {
   font-size: 18px;
-  line-height: 2.0;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
 
-.works-text{
+.works-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.188;
