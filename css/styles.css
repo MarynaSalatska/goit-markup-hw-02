@@ -49,7 +49,8 @@ ul {
   color: var(--decoration-text-color);
 }
 
-.link.current:active {
+.link.current:active
+ {
   color: var(--decoration-text-color);
 }
 /* main page */
@@ -132,6 +133,15 @@ ul {
 
 .footer {
   background: #2f303a;
+}
+.footer .studio{
+  color: var(--primary-body-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-style: normal;
 }
 .footer-link {
   font-weight: 400;
