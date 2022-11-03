@@ -7,6 +7,7 @@
   --studio-color:#000000;
   --solution-color:#2f303a;
   --solution-button-color: #188ce8;
+  --footer-color:rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -14,8 +15,6 @@ body {
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  /* font-weight: 700;
-  line-height: 1.14; */
   letter-spacing: 0.03em;
 }
 
@@ -45,7 +44,6 @@ ul {
   font-weight: 500;
   line-height: 1.14;
   font-family: inherit;
-  font-style: normal;
   letter-spacing: 0.02em;
 }
 .link:hover,
@@ -77,7 +75,7 @@ ul {
   text-decoration: none;
 }
 .solution {
-  background-color: var(--solution-color);
+  background-color:var(--solution-color);
 }
 .solution-title {
   font-family: inherit;
@@ -135,7 +133,7 @@ ul {
 }
 
 .footer {
-  background: #2f303a;
+  background: var(--solution-color);
 }
 .footer .studio{
   text-decoration: none;
@@ -144,24 +142,18 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   font-style: normal;
 }
 .footer-link {
   text-decoration: none;
-  font-weight: 400;
   line-height: 1.71;
-  font-family: inherit;
   font-style: normal;
-  color: rgba(255, 255, 255, 0.6);
-  letter-spacing: inherit;
+  color:var(--footer-color);
 }
 
 .footer-address {
   text-decoration: none;
-  font-family: inherit;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.71;
   color: var(--primary-body-color);
 }
@@ -177,7 +169,6 @@ ul {
 }
 
 .works-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.188;
   color: var(--secondary-text-color);
