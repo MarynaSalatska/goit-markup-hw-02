@@ -4,6 +4,9 @@
   --secondary-text-color: #757575;
   --decoration-text-color: #2196f3;
   --accent-color: #f5f4fa;
+  --studio-color:#000000;
+  --solution-color:#2f303a;
+  --solution-button-color: #188ce8;
 }
 
 body {
@@ -11,8 +14,8 @@ body {
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
+  /* font-weight: 700;
+  line-height: 1.14; */
   letter-spacing: 0.03em;
 }
 
@@ -32,11 +35,12 @@ ul {
 .button:hover,
 .button:focus {
   background-color: var(--decoration-text-color);
-  color: var(--decoration-button-color);
+  color: var(--primary-body-color);
   cursor: pointer;
 }
 
 .link {
+  text-decoration: none;
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -54,12 +58,13 @@ ul {
 }
 /* main page */
 .studio {
-  color: #000000;
+  color: var(--studio-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .web {
@@ -69,9 +74,10 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--decoration-text-color);
+  text-decoration: none;
 }
 .solution {
-  background-color: #2f303a;
+  background-color: var(--solution-color);
 }
 .solution-title {
   font-family: inherit;
@@ -88,22 +94,20 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  background: #2196f3;
+  font-weight: 700;
   color: var(--primary-body-color);
+  background-color: var(--decoration-text-color);
 }
 .solution-button:hover,
 .solution-button:focus {
-  background-color: #188ce8;
-  font-weight: inherit;
-  color: var(--primary-body-color);
+  background-color: var(--solution-button-color);
   cursor: pointer;
 }
 
 .list-title {
   text-transform: uppercase;
-  font-weight: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  font-weight: 700;
+  line-height: 1.14;
   letter-spacing: 0.03em;
 }
 .list-text {
@@ -112,6 +116,7 @@ ul {
 }
 
 .section-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
 }
@@ -124,7 +129,6 @@ ul {
   letter-spacing: inherit;
 }
 .image-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-text-color);
@@ -134,6 +138,7 @@ ul {
   background: #2f303a;
 }
 .footer .studio{
+  text-decoration: none;
   color: var(--primary-body-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -143,6 +148,7 @@ ul {
   font-style: normal;
 }
 .footer-link {
+  text-decoration: none;
   font-weight: 400;
   line-height: 1.71;
   font-family: inherit;
@@ -152,6 +158,7 @@ ul {
 }
 
 .footer-address {
+  text-decoration: none;
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
@@ -159,7 +166,9 @@ ul {
   color: var(--primary-body-color);
 }
 /* portfolio */
-
+.work-link {
+  text-decoration: none;
+}
 .works-title {
   font-size: 18px;
   line-height: 2;
