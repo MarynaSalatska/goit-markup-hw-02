@@ -46,6 +46,10 @@ ul {
   font-family: inherit;
   letter-spacing: 0.02em;
 }
+.contact {
+  color:var(--secondary-text-color);
+}
+
 .link:hover,
 .link:focus {
   color: var(--decoration-text-color);
@@ -54,6 +58,8 @@ ul {
 .link.current{
   color: var(--decoration-text-color);
 }
+
+
 /* main page */
 .studio {
   color: var(--studio-color);
@@ -113,6 +119,9 @@ ul {
   color: var(--secondary-text-color);
 }
 
+.section-container{
+  background-color: var(--accent-color);
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -150,13 +159,21 @@ ul {
   font-style: normal;
   color:var(--footer-color);
 }
-
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--decoration-text-color);
+}
 .footer-address {
   text-decoration: none;
   font-style: normal;
   line-height: 1.71;
   color: var(--primary-body-color);
 }
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--decoration-text-color);
+}
+
 /* portfolio */
 .work-link {
   text-decoration: none;
